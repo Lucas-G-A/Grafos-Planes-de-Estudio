@@ -68,19 +68,37 @@ if g is not None:
     st.subheader("Materias disponibles (con correquisitos en paquete)")
     grupos = g.grupos_coreq_disponibles()
 
+    def _sem_or_inf(m):
+        return m.semestre if isinstance(m.semestre, int) else 999
+
+    grupos = sorted(grupos, key=lambda grp: min(_sem_or_inf(m) for m in grp))
+
     if not grupos:
         st.write("No hay materias disponibles por ahora.")
     else:
-        for materias in grupos:
-            # 'materias' es una lista de Nodo; puede ser tamaño 1 o >1
-            etiquetas = [f"{m.clave} — {m.nombre}" for m in materias]
-            st.write(" • " + "  |  ".join(etiquetas))
+        for grp in grupos:
+            # 3) Ordenar materias dentro del grupo por semestre y luego por clave
+            materias = sorted(grp, key=lambda m: (_sem_or_inf(m), m.clave))
 
-        # Botón para completar TODO el paquete (o la materia, si lista de 1)
+            # 4) Etiquetas: “CLAVE — Nombre (Sx)” mostrando semestre
+            etiquetas = [
+                f"{m.clave} — {m.nombre} (S{m.semestre})" if m.semestre is not None else f"{m.clave} — {m.nombre}"
+                for m in materias
+            ]
+            st.markdown(" • " + "  |  ".join(etiquetas))
+
+            # 5) Botones (igual que antes)
             paquete_id = "_".join([m.clave for m in materias])
-            if st.button("Completar", key=f"pkg_{paquete_id}"):
+            c1, c2 = st.columns(2)
+
+            if c1.button("Cursando", key=f"start_{paquete_id}"):
                 for m in materias:
-                    g.completar_materia(m.clave)
+                    g.iniciar_materia(m.clave)   # estado = 1 (cursando)
+                st.rerun()
+
+            if c2.button("Completada", key=f"comp_{paquete_id}"):
+                for m in materias:
+                    g.completar_materia(m.clave) # estado = 2 (completada)
                 st.rerun()
 
 
