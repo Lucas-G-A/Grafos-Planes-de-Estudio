@@ -102,16 +102,21 @@ if g is not None:
             paquete_id = "_".join([m.clave for m in materias])
             c1, c2 = st.columns(2)
 
+            esta_cursando = any(m.estado == 1 for m in materias)
+
+            # Mostrar botones con highlight visual
+            if esta_cursando:
+                c1.markdown("<span style='color:orange; font-weight:bold;'>🟠 Cursando</span>", unsafe_allow_html=True)
+
             if c1.button("Cursando", key=f"start_{paquete_id}"):
                 for m in materias:
-                    g.iniciar_materia(m.clave)   # estado = 1 (cursando)
+                    g.iniciar_materia(m.clave)
                 st.rerun()
 
             if c2.button("Completada", key=f"comp_{paquete_id}"):
                 for m in materias:
-                    g.completar_materia(m.clave) # estado = 2 (completada)
+                    g.completar_materia(m.clave)
                 st.rerun()
-
 
     st.divider()
 
