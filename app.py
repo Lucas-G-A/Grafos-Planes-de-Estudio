@@ -3,8 +3,19 @@ from pathlib import Path
 import streamlit as st
 from grafo_json import Grafo
 
-PLANES_DIR = Path("planes")
-PLANES_DIR.mkdir(exist_ok=True)
+BASE_DIR = Path(__file__).parent          # carpeta donde está app.py
+PLANES_DIR = BASE_DIR / "planes"          # carpeta "planes" dentro del proyecto
+PLANES_DIR.mkdir(exist_ok=True)           # la crea si no existe
+
+st.set_page_config(
+    page_title="Grafos • Planes de Estudio ITAM",
+    page_icon="📚",
+    layout="wide"
+)
+if st.button("Reiniciar sesión (borrar progreso temporal)"):
+    for m in st.session_state.grafo.materias.values():
+        m.estado = 0
+    st.rerun()
 
 @st.cache_data(show_spinner=False)
 def listar_planes(dir_path: Path):

@@ -5,7 +5,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "PRIMER SEMESTRE"
+    "semestre": 1
   },
   "MAT-14200": {
     "nombre": "Geometría Analítica",
@@ -13,7 +13,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "PRIMER SEMESTRE"
+    "semestre": 1
   },
   "EGN-17121": {
     "nombre": "Ideas e Instituciones Políticas y Sociales I",
@@ -21,7 +21,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "PRIMER SEMESTRE"
+    "semestre": 1
   },
   "SDI-14105": {
     "nombre": "Introducción a la Ingeniería",
@@ -29,7 +29,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "PRIMER SEMESTRE"
+    "semestre": 1
   },
   "LEN-10131": {
     "nombre": "Estrategias de Comunicación Escrita",
@@ -37,7 +37,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "PRIMER SEMESTRE"
+    "semestre": 1
   },
   "IIO-15130": {
     "nombre": "Fundamentos de Química",
@@ -45,7 +45,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEGUNDO SEMESTRE"
+    "semestre": 2
   },
   "MAT-14100": {
     "nombre": "Cálculo Diferencial e Integral I",
@@ -53,7 +53,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEGUNDO SEMESTRE"
+    "semestre": 2
   },
   "MAT-14201": {
     "nombre": "Álgebra Lineal I",
@@ -63,7 +63,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEGUNDO SEMESTRE"
+    "semestre": 2
   },
   "COM-11102": {
     "nombre": "Estructuras de Datos",
@@ -73,7 +73,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEGUNDO SEMESTRE"
+    "semestre": 2
   },
   "EGN-17122": {
     "nombre": "Ideas e Instituciones Políticas y Sociales II",
@@ -83,7 +83,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEGUNDO SEMESTRE"
+    "semestre": 2
   },
   "EGN-17141": {
     "nombre": "Problemas de la Civilización Contemporánea I",
@@ -91,7 +91,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEGUNDO SEMESTRE"
+    "semestre": 2
   },
   "SDI-11120": {
     "nombre": "Elementos de Física",
@@ -101,7 +101,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "TERCER SEMESTRE"
+    "semestre": 3
   },
   "MAT-14101": {
     "nombre": "Cálculo Diferencial e Integral II",
@@ -111,7 +111,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "TERCER SEMESTRE"
+    "semestre": 3
   },
   "IIO-15140": {
     "nombre": "Ciencias de los Materiales",
@@ -121,7 +121,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "TERCER SEMESTRE"
+    "semestre": 3
   },
   "COM-16203": {
     "nombre": "Desarrollo de Aplicaciones Informáticas",
@@ -131,7 +131,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "TERCER SEMESTRE"
+    "semestre": 3
   },
   "CON-10100": {
     "nombre": "Contabilidad I",
@@ -139,7 +139,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "TERCER SEMESTRE"
+    "semestre": 3
   },
   "EGN-17142": {
     "nombre": "Problemas de la Civilización Contemporánea II",
@@ -149,7 +149,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "TERCER SEMESTRE"
+    "semestre": 3
   },
   "EGN-17123": {
     "nombre": "Ideas e Instituciones Políticas y Sociales III",
@@ -160,7 +160,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "TERCER SEMESTRE"
+    "semestre": 3
   },
   "SDI-11221": {
     "nombre": "Elementos de Electrónica",
@@ -170,7 +170,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "CUARTO SEMESTRE"
+    "semestre": 4
   },
   "MAT-14102": {
     "nombre": "Cálculo Diferencial e Integral III",
@@ -181,7 +181,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "CUARTO SEMESTRE"
+    "semestre": 4
   },
   "ECO-11101": {
     "nombre": "Economía I",
@@ -189,7 +189,7 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "CUARTO SEMESTRE"
+    "semestre": 4
   },
   "IIO-15170": {
     "nombre": "Diseño Asistido por Computadora",
@@ -199,7 +199,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "CUARTO SEMESTRE"
+    "semestre": 4
   },
   "EGN-17161": {
     "nombre": "Historia Socio-Política de México",
@@ -209,7 +209,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "CUARTO SEMESTRE"
+    "semestre": 4
   },
   "EST-11101": {
     "nombre": "Probabilidad",
@@ -219,7 +219,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "CUARTO SEMESTRE"
+    "semestre": 4
   },
   "SDI-11322": {
     "nombre": "Circuitos Lógicos",
@@ -230,7 +230,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "QUINTO SEMESTRE"
+    "semestre": 5
   },
   "EST-11102": {
     "nombre": "Inferencia Estadística",
@@ -241,7 +241,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "QUINTO SEMESTRE"
+    "semestre": 5
   },
   "SDI-12515": {
     "nombre": "Señales y Sistemas",
@@ -251,7 +251,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "QUINTO SEMESTRE"
+    "semestre": 5
   },
   "ECO-12102": {
     "nombre": "Economía II",
@@ -261,7 +261,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "QUINTO SEMESTRE"
+    "semestre": 5
   },
   "EGN-17162": {
     "nombre": "Problemas de la Realidad Mexicana Contemporánea",
@@ -272,7 +272,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "QUINTO SEMESTRE"
+    "semestre": 5
   },
   "MAT-12210": {
     "nombre": "Sistemas Dinámicos",
@@ -282,7 +282,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "QUINTO SEMESTRE"
+    "semestre": 5
   },
   "SDI-11561": {
     "nombre": "Principios de Mecatrónica",
@@ -293,7 +293,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEXTO SEMESTRE"
+    "semestre": 6
   },
   "COM-23101": {
     "nombre": "Inteligencia Artificial",
@@ -303,7 +303,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEXTO SEMESTRE"
+    "semestre": 6
   },
   "SDI-12625": {
     "nombre": "Procesamiento Digital de Señales",
@@ -313,7 +313,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEXTO SEMESTRE"
+    "semestre": 6
   },
   "COM-14105": {
     "nombre": "Algoritmos Numéricos por Computadora",
@@ -324,7 +324,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEXTO SEMESTRE"
+    "semestre": 6
   },
   "IIO-15171": {
     "nombre": "Mecánica de Sólidos",
@@ -335,7 +335,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEXTO SEMESTRE"
+    "semestre": 6
   },
   "SDI-11671": {
     "nombre": "Teoría de Control",
@@ -345,7 +345,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SEXTO SEMESTRE"
+    "semestre": 6
   },
   "SDI-13760": {
     "nombre": "Redes de Computadoras",
@@ -355,7 +355,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SÉPTIMO SEMESTRE"
+    "semestre": 7
   },
   "IIO-12170": {
     "nombre": "Automatización y Control de Procesos",
@@ -365,7 +365,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SÉPTIMO SEMESTRE"
+    "semestre": 7
   },
   "IIO-15161": {
     "nombre": "Manufactura de Componentes",
@@ -375,7 +375,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SÉPTIMO SEMESTRE"
+    "semestre": 7
   },
   "IIO-15183": {
     "nombre": "Diseño de Mecanismos Robóticos",
@@ -385,7 +385,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SÉPTIMO SEMESTRE"
+    "semestre": 7
   },
   "SDI-11911": {
     "nombre": "Robótica",
@@ -395,7 +395,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "SÉPTIMO SEMESTRE"
+    "semestre": 7
   },
   "IIO-15195": {
     "nombre": "Celdas Robóticas",
@@ -405,7 +405,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "OCTAVO SEMESTRE"
+    "semestre": 8
   },
   "COM-14104": {
     "nombre": "Sistemas Operativos",
@@ -415,7 +415,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "OCTAVO SEMESTRE"
+    "semestre": 8
   },
   "IIO-12190": {
     "nombre": "Manufactura Integrada por Computadora",
@@ -425,7 +425,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "OCTAVO SEMESTRE"
+    "semestre": 8
   },
   "IIO-15196": {
     "nombre": "Sistemas Mecatrónicos",
@@ -436,7 +436,7 @@
     ],
     "coreqs": [],
     "estado": 0,
-    "semestre": "OCTAVO SEMESTRE"
+    "semestre": 8
   },
   "SDI-15816": {
     "nombre": "Seminario de Titulación",
@@ -444,6 +444,6 @@
     "prerreqs": [],
     "coreqs": [],
     "estado": 0,
-    "semestre": "OCTAVO SEMESTRE"
+    "semestre": 8
   }
 }
