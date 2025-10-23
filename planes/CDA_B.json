@@ -1,0 +1,507 @@
+{
+  "COM-11101": {
+    "nombre": "Algoritmos y Programas",
+    "creditos": 9,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 1
+  },
+  "MAT-14250": {
+    "nombre": "Geometría Vectorial",
+    "creditos": 6,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 1
+  },
+  "MAT-14100": {
+    "nombre": "Cálculo Diferencial e Integral I",
+    "creditos": 8,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 1
+  },
+  "LEN-12701": {
+    "nombre": "Estrategias de Comunicación Escrita",
+    "creditos": 6,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 1
+  },
+  "ECO-11101": {
+    "nombre": "Economía I",
+    "creditos": 6,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 1
+  },
+  "EGN-17121": {
+    "nombre": "Ideas e Instituciones Políticas y Sociales I",
+    "creditos": 6,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 1
+  },
+  "MAT-14280": {
+    "nombre": "Pensamiento Matemático",
+    "creditos": 6,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 2
+  },
+  "MAT-14201": {
+    "nombre": "Álgebra Lineal I",
+    "creditos": 8,
+    "prerreqs": [
+      "MAT-14250"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 2
+  },
+  "MAT-14101": {
+    "nombre": "Cálculo Diferencial e Integral II",
+    "creditos": 8,
+    "prerreqs": [
+      "MAT-14100"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 2
+  },
+  "ECO-12102": {
+    "nombre": "Economía II",
+    "creditos": 6,
+    "prerreqs": [
+      "ECO-11101"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 2
+  },
+  "EGN-17122": {
+    "nombre": "Ideas e Instituciones Políticas y Sociales II",
+    "creditos": 6,
+    "prerreqs": [
+      "EGN-17121"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 2
+  },
+  "EGN-17141": {
+    "nombre": "Problemas de la Civilización Contemporánea I",
+    "creditos": 6,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 2
+  },
+  "COM-11102": {
+    "nombre": "Estructuras de Datos",
+    "creditos": 8,
+    "prerreqs": [
+      "COM-11101"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 3
+  },
+  "MAT-14281": {
+    "nombre": "Matemáticas Discretas",
+    "creditos": 6,
+    "prerreqs": [
+      "MAT-14280"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 3
+  },
+  "MAT-14102": {
+    "nombre": "Cálculo Diferencial e Integral III",
+    "creditos": 8,
+    "prerreqs": [
+      "MAT-14201",
+      "MAT-14101"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 3
+  },
+  "ECO-11103": {
+    "nombre": "Economía III",
+    "creditos": 6,
+    "prerreqs": [
+      "ECO-12102",
+      "MAT-14100"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 3
+  },
+  "EGN-17123": {
+    "nombre": "Ideas e Instituciones Políticas y Sociales III",
+    "creditos": 6,
+    "prerreqs": [
+      "EGN-17122",
+      "EGN-17141",
+      "LEN-12701"
+    ],
+    "coreqs": [
+      "LEN-12702"
+    ],
+    "estado": 0,
+    "semestre": 3
+  },
+  "LEN-12702": {
+    "nombre": "Seminario de Comunicación Escrita",
+    "creditos": 2,
+    "prerreqs": [
+      "LEN-12701"
+    ],
+    "coreqs": [
+      "EGN-17123"
+    ],
+    "estado": 0,
+    "semestre": 3
+  },
+  "EGN-17142": {
+    "nombre": "Problemas de la Civilización Contemporánea II",
+    "creditos": 6,
+    "prerreqs": [
+      "EGN-17141"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 3
+  },
+  "COM-11112": {
+    "nombre": "Estructuras de Datos Avanzadas",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-11102"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "COM-12101": {
+    "nombre": "Bases de Datos",
+    "creditos": 8,
+    "prerreqs": [
+      "MAT-14281",
+      "COM-11102"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "EST-24126": {
+    "nombre": "Cálculo de Probabilidades I",
+    "creditos": 6,
+    "prerreqs": [
+      "MAT-14281",
+      "MAT-14101"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "ECO-11104": {
+    "nombre": "Economía IV",
+    "creditos": 6,
+    "prerreqs": [
+      "ECO-11103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "EGN-17161": {
+    "nombre": "Historia Socio-Política de México",
+    "creditos": 6,
+    "prerreqs": [
+      "EGN-17123",
+      "LEN-12702"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "COM-22102": {
+    "nombre": "Bases de Datos No Relacionales",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-11112",
+      "COM-12101"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 5
+  },
+  "COM-12103": {
+    "nombre": "Fuentes de Datos",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-12101",
+      "COM-11112"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 5
+  },
+  "EST-24127": {
+    "nombre": "Cálculo de Probabilidades II",
+    "creditos": 6,
+    "prerreqs": [
+      "EST-24126"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 5
+  },
+  "ECO-11227": {
+    "nombre": "Diseño de Mercados",
+    "creditos": 6,
+    "prerreqs": [
+      "ECO-11104",
+      "EST-24126"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 5
+  },
+  "EGN-17162": {
+    "nombre": "Problemas de la Realidad Mexicana Contemporánea",
+    "creditos": 6,
+    "prerreqs": [
+      "EGN-17161",
+      "EGN-17142"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 5
+  },
+  "COM-12104": {
+    "nombre": "Visualización de Información",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-11101",
+      "EST-24126",
+      "MAT-14281"
+    ],
+    "coreqs": [
+      "LEN-12722"
+    ],
+    "estado": 0,
+    "semestre": 6
+  },
+  "EST-14103": {
+    "nombre": "Estadística Matemática",
+    "creditos": 8,
+    "prerreqs": [
+      "EST-24127"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 6
+  },
+  "CSO-16048": {
+    "nombre": "Tópicos de Políticas Públicas I",
+    "creditos": 6,
+    "prerreqs": [
+      "ECO-11104"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 6
+  },
+  "ADM-12301": {
+    "nombre": "Tópicos de Negocios I",
+    "creditos": 6,
+    "prerreqs": [
+      "ECO-11104"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 6
+  },
+  "LEN-12722": {
+    "nombre": "Comunicación Escrita para Ciencia de Datos",
+    "creditos": 2,
+    "prerreqs": [
+      "LEN-12701"
+    ],
+    "coreqs": [
+      "COM-12104"
+    ],
+    "estado": 0,
+    "semestre": 6
+  },
+  "COM-23701": {
+    "nombre": "Aprendizaje de Máquina",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-12101"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 6
+  },
+  "COM-23101": {
+    "nombre": "Inteligencia Artificial",
+    "creditos": 8,
+    "prerreqs": [
+      "COM-11112"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "EST-24124": {
+    "nombre": "Métodos Lineales",
+    "creditos": 6,
+    "prerreqs": [
+      "EST-14103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "ECO-10521": {
+    "nombre": "Inferencia Causal",
+    "creditos": 6,
+    "prerreqs": [
+      "EST-14103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "ADM-12302": {
+    "nombre": "Tópicos de Negocios II",
+    "creditos": 6,
+    "prerreqs": [
+      "ADM-12301"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "DER-10114": {
+    "nombre": "Seminario de Legalidad y Ética en Ciencia de Datos",
+    "creditos": 4,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "COM-15112": {
+    "nombre": "Cómputo Paralelo y en la Nube",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-12103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "COM-23114": {
+    "nombre": "Arquitectura para Grandes Volúmenes de Datos",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-15112",
+      "COM-12103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 8
+  },
+  "COM-22108": {
+    "nombre": "Minería y Análisis de Datos",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-22102",
+      "COM-23701"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 8
+  },
+  "COM-23115": {
+    "nombre": "Ciencia de Datos Aplicada I",
+    "creditos": 4,
+    "prerreqs": [
+      "COM-23701",
+      "COM-15112"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 8
+  },
+  "EST-24125": {
+    "nombre": "Métodos Multivariados",
+    "creditos": 6,
+    "prerreqs": [
+      "EST-14103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 8
+  },
+  "CSO-16049": {
+    "nombre": "Tópicos de Políticas Públicas II",
+    "creditos": 6,
+    "prerreqs": [
+      "CSO-16048"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 8
+  },
+  "COM-23116": {
+    "nombre": "Ciencia de Datos Aplicada II",
+    "creditos": 6,
+    "prerreqs": [
+      "COM-23115",
+      "COM-23114",
+      "COM-22108",
+      "ADM-12301",
+      "CSO-16048"
+    ],
+    "coreqs": [
+      "LEN-12762"
+    ],
+    "estado": 0,
+    "semestre": 9
+  },
+  "LEN-12762": {
+    "nombre": "Comunicación Profesional para Ciencia de Datos",
+    "creditos": 2,
+    "prerreqs": [
+      "LEN-12702",
+      "LEN-12722"
+    ],
+    "coreqs": [
+      "COM-23116"
+    ],
+    "estado": 0,
+    "semestre": 9
+  },
+  "EST-24112": {
+    "nombre": "Estadística Bayesiana",
+    "creditos": 6,
+    "prerreqs": [
+      "EST-14103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 9
+  }
+}
