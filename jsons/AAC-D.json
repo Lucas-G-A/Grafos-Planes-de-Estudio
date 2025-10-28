@@ -1,0 +1,220 @@
+{
+  "MAT-14100": {
+    "nombre": "ECO-121",
+    "creditos": 2,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "EGN-17141": {
+    "nombre": "LEN-101",
+    "creditos": 31,
+    "prerreqs": [
+      "EGN-17122"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 2
+  },
+  "ADM-12108": {
+    "nombre": "CON-141",
+    "creditos": 9,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "MAT-14101": {
+    "nombre": "MAT-142",
+    "creditos": 1,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "MAT-14301": {
+    "nombre": "MAT-141",
+    "creditos": 1,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "COM-16301": {
+    "nombre": "MAT-143",
+    "creditos": 0,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 4
+  },
+  "EST-14101": {
+    "nombre": "MAT-141",
+    "creditos": 2,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 5
+  },
+  "EST-14102": {
+    "nombre": "EST-241",
+    "creditos": 4,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "ACT-15357": {
+    "nombre": "EST-141",
+    "creditos": 3,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 10
+  },
+  "EST-24104": {
+    "nombre": "Estadística Aplicada I Derecho Empresarial I DER-100",
+    "creditos": 18,
+    "prerreqs": [
+      "ADM-14402",
+      "ADM-11101",
+      "ACT-11300",
+      "EST-14107"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 6
+  },
+  "EGN-17142": {
+    "nombre": "EGN-171",
+    "creditos": 61,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 6
+  },
+  "ACT-11300": {
+    "nombre": "EST-141",
+    "creditos": 2,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "ADM-16601": {
+    "nombre": "ADM-110",
+    "creditos": 13,
+    "prerreqs": [
+      "ADM-14401"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "ADM-11002": {
+    "nombre": "MAT-226",
+    "creditos": 0,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "MAT-14102": {
+    "nombre": "MAT-143",
+    "creditos": 10,
+    "prerreqs": [
+      "COM-11302"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "EST-14103": {
+    "nombre": "CON-100",
+    "creditos": 1,
+    "prerreqs": [
+      "MAT-22600"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "MAT-22600": {
+    "nombre": "EST-141",
+    "creditos": 1,
+    "prerreqs": [
+      "ECO-11104"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "ACT-15358": {
+    "nombre": "MAT-144",
+    "creditos": 0,
+    "prerreqs": [
+      "EST-14103"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "DER-10021": {
+    "nombre": "CON-141",
+    "creditos": 9,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 7
+  },
+  "ECO-11103": {
+    "nombre": "ACT-223",
+    "creditos": 6,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 10
+  },
+  "EST-24105": {
+    "nombre": "EST-141",
+    "creditos": 7,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 10
+  },
+  "ACT-11302": {
+    "nombre": "ACT-113",
+    "creditos": 3,
+    "prerreqs": [],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 10
+  },
+  "ACT-25354": {
+    "nombre": "Administración Cuantitativa de Riesgos ACT-153",
+    "creditos": 53,
+    "prerreqs": [
+      "ADM-15503",
+      "ADM-14413",
+      "ADM-15582",
+      "ADM-11018",
+      "ACT-13307"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 10
+  },
+  "MAT-14001": {
+    "nombre": ") Introducción a las Matemáticas Superiores. T I T U L A C I Ó N cada carrera. El alumno podrá titularse simultáneamente, de ambas carreras, si realiza un trabajo de tesis. Se requiere promedio mínimo de 8 y presentar a ambos directores de programa la propuesta por licenciatura del tema de investigación para que sea aprobado por las Direcciones de cada programa. El examen profesional se presentará de manera individual y por cada licenciatura. 1. Tesis 3. Exámenes SOA/CAS (Society of Actuaries/Casualty Actuarial Society) + Trabajo escrito* 4. Examen CFA (Chartered Financial Analyst) + Trabajo escrito* * Una vez aprobados los exámenes, deberás acudir con el Director de Carrera para la asignación del trabajo escrito. Licenciaturas en Administración y Actuaría -Plan D Si aspiras a obtener Mención Honorífica deberás elegir la modalidad de tesis. Si aspiras a obtener Mención Especial deberás elegir la modalidad de tesis o la de tesina. II. Administración: Podrá optar por alguna de las siguientes opciones a. Tesis - promedio mínimo de",
+    "creditos": 8,
+    "prerreqs": [
+      "ACT-15352",
+      "ACT-15359"
+    ],
+    "coreqs": [],
+    "estado": 0,
+    "semestre": 10
+  }
+}
