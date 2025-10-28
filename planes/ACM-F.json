@@ -1,0 +1,635 @@
+{
+    "ACT-15360": {
+        "nombre": "Introducción a la Actuaría",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "COM-16306": {
+        "nombre": "Razonamiento Algorítmico",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "EGN-17141": {
+        "nombre": "Problemas de la Civilización Contemporánea I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "LEN-12701": {
+        "nombre": "Estrategias de Comunicación Escrita",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "MAT-14250": {
+        "nombre": "Geometría Vectorial",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "MAT-14280": {
+        "nombre": "Pensamiento Matemático",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "COM-16305": {
+        "nombre": "Gestión de Datos",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16306"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "CON-10001": {
+        "nombre": "Proceso Contable",
+        "creditos": 8,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17142": {
+        "nombre": "Problemas de la Civilización Contemporánea II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17141"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-12200": {
+        "nombre": "Cálculo Univariado",
+        "creditos": 9,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14201": {
+        "nombre": "Algebra lineal I",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14250"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14281": {
+        "nombre": "Matemáticas Discretas",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14280"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "ACT-11310": {
+        "nombre": "Introducción al Cálculo Actuarial",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-15360",
+            "MAT-12200"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "CON-14100": {
+        "nombre": "Contabilidad Administrativa I",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "ECO-11010": {
+        "nombre": "Principios de Microeconomía",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EGN-17121": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales I (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EST-24126": {
+        "nombre": "Cálculo de Probabilidades I",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14281",
+            "MAT-12200"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "LEN-12702": {
+        "nombre": "Seminario de Comunicación Escrita (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "MAT-12201": {
+        "nombre": "Cálculo Multivariado",
+        "creditos": 9,
+        "prerreqs": [
+            "MAT-14250",
+            "MAT-12200"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "ACT-11300": {
+        "nombre": "Cálculo Actuarial I",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11310",
+            "EST-24126"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ECO-12010": {
+        "nombre": "Principios de Macroeconomía",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11010"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EGN-17122": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17121"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EST-24127": {
+        "nombre": "Cálculo de Probabilidades II",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24126",
+            "MAT-12201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "MAT-12202": {
+        "nombre": "Cálculo Vectorial",
+        "creditos": 9,
+        "prerreqs": [
+            "MAT-12201",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "MAT-24406": {
+        "nombre": "Análisis Numérico I",
+        "creditos": 8,
+        "prerreqs": [
+            "COM-16305",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ACT-11301": {
+        "nombre": "Cálculo Actuarial II",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24127",
+            "ACT-11300"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EGN-17123": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales III",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17122",
+            "EGN-17141"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EST-14103": {
+        "nombre": "Estadística Matemática",
+        "creditos": 8,
+        "prerreqs": [
+            "EST-24127"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EST-24129": {
+        "nombre": "Fundamentos de Visualización de Datos",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16305",
+            "EST-24126"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "MAT-24210": {
+        "nombre": "Sistemas Dinámicos I",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-12201",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "MAT-24407": {
+        "nombre": "Análisis Numérico II",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-24406"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "ADM-15532": {
+        "nombre": "Finanzas Corporativas",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10001",
+            "ACT-11310"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ECO-11011": {
+        "nombre": "Microeconomía Aplicada I",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-12010",
+            "MAT-12201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "EGN-17161": {
+        "nombre": "Historia Socio-Política de México",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17123",
+            "EGN-17142"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "EST-14107": {
+        "nombre": "Procesos Estocásticos I",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24127"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "LEN-12719": {
+        "nombre": "Comunicación Escrita para Matemáticas Aplicadas (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "MAT-14850": {
+        "nombre": "Modelos Matemáticos I (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-24210",
+            "EST-24126"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "MAT-24100": {
+        "nombre": "Principios de Análisis Real",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-12201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ACT-22320": {
+        "nombre": "Activos y Pasivos Actuariales",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24127",
+            "ADM-15532"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ECO-11012": {
+        "nombre": "Microeconomía Aplicada II",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11011"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "EGN-17162": {
+        "nombre": "Problemas de la Realidad Mexicana Contemporánea",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17161"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "EST-24124": {
+        "nombre": "Métodos Lineales",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14103",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "MAT-14310": {
+        "nombre": "Álgebra Lineal II",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "MAT-24220": {
+        "nombre": "Ecuaciones Diferenciales Parciales",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-24210"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "MAT-24433": {
+        "nombre": "Optimización Numérica I",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-24407",
+            "MAT-24100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ACT-11302": {
+        "nombre": "Cálculo Actuarial III",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ACT-11303": {
+        "nombre": "Modelos Actuariales I",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11301"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ADM-12107": {
+        "nombre": "Estrategia de Negocios I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "EST-24125": {
+        "nombre": "Métodos Multivariados",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "MAT-24121": {
+        "nombre": "Análisis Complejo",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-24100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "MAT-24435": {
+        "nombre": "Optimización Numérica II",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-24433"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ACT-15353": {
+        "nombre": "Práctica Actuarial y Marco Institucional",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11303",
+            "ACT-11302"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ACT-15380": {
+        "nombre": "Tópicos Actuariales",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11301"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ACT-25354": {
+        "nombre": "Administración Cuantitativa de Riesgos",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24127",
+            "ADM-15532"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "EST-25134": {
+        "nombre": "Aprendizaje Estadístico",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16305",
+            "EST-14103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "MAT-24101": {
+        "nombre": "Análisis Real",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-24100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "MAT-24505": {
+        "nombre": "Investigación de Operaciones I",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-24433"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ACT-13307": {
+        "nombre": "Estadística Aplicada a la Actuaría",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11302"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ACT-22325": {
+        "nombre": "Cálculo Estocástico para Actuaría",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-22320"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "EST-25146": {
+        "nombre": "Econometría Financiera Actuarial",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24124"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "LEN-12759": {
+        "nombre": "Comunicación Profesional para Matemáticas Aplicadas (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12702",
+            "LEN-12719"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "MAT-24102": {
+        "nombre": "Análisis Avanzado",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-24101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "MAT-24850": {
+        "nombre": "Modelos Matemáticos II (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24124",
+            "MAT-24220"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    }
+}

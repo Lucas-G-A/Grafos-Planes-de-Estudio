@@ -1,0 +1,659 @@
+{
+    "CON-10001": {
+        "nombre": "Proceso Contable",
+        "creditos": 8,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "EGN-17121": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "EGN-17141": {
+        "nombre": "Problemas de la Civilización Contemporánea I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "COM-16301": {
+        "nombre": "Herramientas Computacionales y Algoritmos",
+        "creditos": 7,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "LEN-10131": {
+        "nombre": "Estrategias de Comunicación Escrita",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "CON-10002": {
+        "nombre": "Contabilidad Intermedia I",
+        "creditos": 8,
+        "prerreqs": [
+            "CON-10001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "ECO-11101": {
+        "nombre": "Economía I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17122": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17121"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17142": {
+        "nombre": "Problemas de la Civilización Contemporánea II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17141"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14200": {
+        "nombre": "Geometría Analítica",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14300": {
+        "nombre": "Algebra Superior I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "ADM-12107": {
+        "nombre": "Estrategia de Negocios I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "CON-10003": {
+        "nombre": "Contabilidad Intermedia II",
+        "creditos": 8,
+        "prerreqs": [
+            "CON-10002"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "ECO-12102": {
+        "nombre": "Economía II",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EGN-17123": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales III (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17122",
+            "EGN-17141",
+            "LEN-10131"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "MAT-14301": {
+        "nombre": "Algebra Superior II",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14300"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "MAT-14201": {
+        "nombre": "Algebra Lineal I",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14200"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "MAT-14100": {
+        "nombre": "Cálculo Diferencial e Integral I",
+        "creditos": 8,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "CON-10004": {
+        "nombre": "Combinación de Negocios",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10003"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ECO-11103": {
+        "nombre": "Economía III",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-12102",
+            "MAT-14100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EGN-17161": {
+        "nombre": "Historia Sociopolítica de México",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17123"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "MAT-14310": {
+        "nombre": "Algebra lineal II",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14201",
+            "MAT-14301"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "MAT-14101": {
+        "nombre": "Cálculo Diferencial e Integral II",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14100",
+            "MAT-14200"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ACT-15357": {
+        "nombre": "Principios del Seguro",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "CON-10106": {
+        "nombre": "Contabilidad Internacional",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10004"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "ECO-11104": {
+        "nombre": "Economía IV",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EST-14101": {
+        "nombre": "Cálculo de Probabilidades I",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14301",
+            "MAT-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EGN-17162": {
+        "nombre": "Probl. de la Real. Mex. Contemp.",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17142",
+            "EGN-17161"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "DER-10016": {
+        "nombre": "Introducción al Derecho Corporativo",
+        "creditos": 9,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "MAT-14102": {
+        "nombre": "Cálculo Diferencial e Integral III",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14101",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "SDI-25916": {
+        "nombre": "Sistemas Empresariales",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16301",
+            "CON-10106"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "MAT-22600": {
+        "nombre": "Matemáticas Financieras I",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "EST-14102": {
+        "nombre": "Cálculo de Probabilidades II",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14102",
+            "EST-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "DER-10026": {
+        "nombre": "Derecho Corporativo",
+        "creditos": 8,
+        "prerreqs": [
+            "DER-10016"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "EST-24104": {
+        "nombre": "Estadística Aplicada I",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "EST-14103": {
+        "nombre": "Estadística Matematica",
+        "creditos": 8,
+        "prerreqs": [
+            "EST-14102",
+            "EST-24104"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "COM-11302": {
+        "nombre": "Algoritmica y Programación",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16301",
+            "MAT-14300"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ACT-11300": {
+        "nombre": "Cálculo Actuarial I",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14101",
+            "ACT-15357",
+            "MAT-22600"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "COM-16303": {
+        "nombre": "Modelado Computacional para Negocios",
+        "creditos": 9,
+        "prerreqs": [
+            "COM-16301",
+            "MAT-22600"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "DER-17703": {
+        "nombre": "Derecho Fiscal I",
+        "creditos": 8,
+        "prerreqs": [
+            "DER-10026"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ACT-15358": {
+        "nombre": "Sistemas de Seguros (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-15357"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "CON-10011": {
+        "nombre": "Contabilización y Valuación de Instrumentos Fin.",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10106",
+            "MAT-22600"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "CON-11013": {
+        "nombre": "Contraloría",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10004",
+            "SDI-25916"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ACT-11301": {
+        "nombre": "Cálculo Actuarial II",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11300",
+            "EST-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "CON-15001": {
+        "nombre": "Impuestos Corporativos I",
+        "creditos": 6,
+        "prerreqs": [
+            "DER-17703"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "DER-10008": {
+        "nombre": "Régimen Laboral Mexicano",
+        "creditos": 6,
+        "prerreqs": [
+            "DER-10026"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ACT-22306": {
+        "nombre": "Matemáticas Financieras II",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-22600",
+            "EST-14103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ACT-11303": {
+        "nombre": "Modelos Actuariales",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11301"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "CON-11001": {
+        "nombre": "Auditoría de Estados Financieros",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-11013",
+            "SDI-25916"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "EST-14107": {
+        "nombre": "Procesos Estocásticos I",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "CON-15002": {
+        "nombre": "Impuestos Corporativos II",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-15001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "CON-12001": {
+        "nombre": "Contabilidad de Costos (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10003",
+            "DER-10008"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "MAT-14400": {
+        "nombre": "Cálculo Numérico I",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14310",
+            "MAT-14102",
+            "COM-11302"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "EST-24105": {
+        "nombre": "Estadística Aplicada II",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ADM-15582": {
+        "nombre": "Finanzas Corporativas Avanzadas",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-22306"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ACT-11302": {
+        "nombre": "Cálculo Actuarial III",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14103",
+            "MAT-14400",
+            "ACT-15358"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "CON-15003": {
+        "nombre": "Impuestos para Personas Físicas (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-15002"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "CON-12002": {
+        "nombre": "Costos para la Toma de Decisiones",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-12001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ACT-25354": {
+        "nombre": "Administración Cuantitativa de Riesgos",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-14102",
+            "ACT-15357"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "CON-10005": {
+        "nombre": "Análisis Financiero de la Empresa",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10011",
+            "MAT-22600"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "ACT-15353": {
+        "nombre": "Práctica Actuarial y Marco Institucional (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11303",
+            "ACT-11302"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "ACT-15359": {
+        "nombre": "Beneficios de Pensiones y Seguridad Social",
+        "creditos": 6,
+        "prerreqs": [
+            "ACT-11301"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "ACT-22309": {
+        "nombre": "Matemáticas Financieras III",
+        "creditos": 8,
+        "prerreqs": [
+            "ACT-22306"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "CON-12003": {
+        "nombre": "Administración Estrategica de Costos",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-12002"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "ACT-13307": {
+        "nombre": "Estadística Aplicada a la Actuaria",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-24105",
+            "EST-14107"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    }
+}
