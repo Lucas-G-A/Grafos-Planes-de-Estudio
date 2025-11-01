@@ -1,0 +1,622 @@
+{
+    "COM-11101": {
+        "nombre": "Algoritmos y Programas",
+        "creditos": 9,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "ADM-12107": {
+        "nombre": "Estrategia de Negocios I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "MAT-14200": {
+        "nombre": "Geometría Analitica",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "EGN-17121": {
+        "nombre": "Ideas e Instit. Polit. y Soc. I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "LEN-10131": {
+        "nombre": "Estrategias de Comunicación Escrita",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "COM-11102": {
+        "nombre": "Estructuras de Datos",
+        "creditos": 8,
+        "prerreqs": [
+            "COM-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14100": {
+        "nombre": "Cálculo Diferencial e Integral 1",
+        "creditos": 8,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17122": {
+        "nombre": "Ideas e Instituc. Politic.y Soc. II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17121"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "ECO-11101": {
+        "nombre": "Economia 1",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14201": {
+        "nombre": "Algebra Lineal I",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14200"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17141": {
+        "nombre": "Probs.de la Civ. Contemp. I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "CON-10001": {
+        "nombre": "Proceso Contable",
+        "creditos": 8,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "COM-16203": {
+        "nombre": "Desarrollo de Aplicaciones Informáticas",
+        "creditos": 8,
+        "prerreqs": [
+            "COM-11102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "COM-16414": {
+        "nombre": "Aplicación de las TI a los Negocios",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-11102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "MAT-14101": {
+        "nombre": "Cálculo Diferencial e Integral II",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "ECO-12102": {
+        "nombre": "Economia II",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EGN-17142": {
+        "nombre": "Probs. de la Civ. Contemp. II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17141"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EGN-17123": {
+        "nombre": "Ideas e Instituc.Politic.y Soc.III (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17122",
+            "EGN-17141",
+            "LEN-10131"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "ECO-21103": {
+        "nombre": "Economia III",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-12102",
+            "MAT-14100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "SDI-25916": {
+        "nombre": "Sistemas Empresariales",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-12107"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EST-11101": {
+        "nombre": "Probabilidad",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "MAT-14102": {
+        "nombre": "Cálculo Diferencial e Integral III",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14101",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EGN-17161": {
+        "nombre": "Historia Socio-Politica de México",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17123"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "CON-10002": {
+        "nombre": "Contabilidad Intermedia I",
+        "creditos": 8,
+        "prerreqs": [
+            "CON-10001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "IIO-13150": {
+        "nombre": "Modelado y Optimización I",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14201",
+            "MAT-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EST-11102": {
+        "nombre": "Inferencia Estadistica",
+        "creditos": 8,
+        "prerreqs": [
+            "EST-11101",
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "COM-16413": {
+        "nombre": "Inteligencia de Negocios (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16203"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "ECO-21104": {
+        "nombre": "Economia IV",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-21103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EGN-17162": {
+        "nombre": "Probs. de la Real. Mex. Contemp.",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17142",
+            "EGN-17161"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "CON-10003": {
+        "nombre": "Contabilidad Intermedia II",
+        "creditos": 8,
+        "prerreqs": [
+            "CON-10002",
+            "MAT-14100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EST-11103": {
+        "nombre": "Econometria I",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11102",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ADM-15507": {
+        "nombre": "Fundamentos de Finanzas",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11102",
+            "CON-10001",
+            "ECO-21103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ADM-16601": {
+        "nombre": "Mercadotecnia I",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ADM-14405": {
+        "nombre": "Estruct. Proc. y Comp. Org. 1",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-12107"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "IIO-13180": {
+        "nombre": "Simulación de Sistemas",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16203",
+            "EST-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "IIO-13160": {
+        "nombre": "Modelado y Optimización II",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11101",
+            "IIO-13150",
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ADM-14413": {
+        "nombre": "Des. Habs. Genenciales",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-14405"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "COM-23106": {
+        "nombre": "Minería de Datos (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11103",
+            "COM-16413"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ADM-15531": {
+        "nombre": "Mercados e Instituciones Financieras.",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15507",
+            "ECO-12102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ADM-16610": {
+        "nombre": "Investigación de Mercados",
+        "creditos": 7,
+        "prerreqs": [
+            "ADM-16601",
+            "EST-11103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "DER-10015": {
+        "nombre": "Derecho Empresarial",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ADM-12013": {
+        "nombre": "Diseño y Cambio Organizacional",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-14405",
+            "EST-11103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "IIO-14193": {
+        "nombre": "Ingenieria de Proc. de Negocios",
+        "creditos": 6,
+        "prerreqs": [
+            "IIO-13180"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "MAT-24630": {
+        "nombre": "Matemáticas Aplicadas a la Economia",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ADM-15532": {
+        "nombre": "Finanzas Corporativas (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15531"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ADM-16644": {
+        "nombre": "Modelos de Mercadotecnia",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-16610"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ADM-12251": {
+        "nombre": "Planeación y Ejecución de Estrategias",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-12013"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "DER-10017": {
+        "nombre": "Contratos Financieros Comparados",
+        "creditos": 6,
+        "prerreqs": [
+            "DER-10015"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ADM-15514": {
+        "nombre": "Administración de Portafolios de Inv.",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15531",
+            "EST-11102",
+            "ECO-21104"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ADM-15522": {
+        "nombre": "Teoría de las Finanzas",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15531",
+            "ECO-21104"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "DER-10011": {
+        "nombre": "Régimen Fiscal para Conta. Púb.",
+        "creditos": 6,
+        "prerreqs": [
+            "DER-10015"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "CON-10004": {
+        "nombre": "Combinación de Negocios",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10003",
+            "DER-10015"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "CON-15001": {
+        "nombre": "Impuestos Corporativos I",
+        "creditos": 6,
+        "prerreqs": [
+            "DER-10011"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ADM-15571": {
+        "nombre": "Renta Fija",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15532"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ADM-15535": {
+        "nombre": "Derivados",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15514",
+            "EST-11103"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ADM-15533": {
+        "nombre": "Modelos Financieros I",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15514",
+            "MAT-24630",
+            "ADM-15522"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "CON-10005": {
+        "nombre": "Análisis Financiero de la Empresa",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10004"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "CON-15002": {
+        "nombre": "Impuestos Corporativos II",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-15001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "ADM-15517": {
+        "nombre": "Métodos Empíricos en Finanzas",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11103",
+            "ADM-15535",
+            "ADM-15571"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "ADM-15534": {
+        "nombre": "Modelos Financieros II (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15533",
+            "ADM-15535",
+            "ADM-15571"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    },
+    "IIO-16180": {
+        "nombre": "Seminario de Titulación",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15514",
+            "CON-10005"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 11
+    }
+}

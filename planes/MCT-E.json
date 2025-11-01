@@ -1,0 +1,482 @@
+{
+    "COM-11101": {
+        "nombre": "Algoritmos y Programas",
+        "creditos": 9,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "MAT-14200": {
+        "nombre": "Geometría Analítica",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "EGN-17121": {
+        "nombre": "Ideas e Instit. Polts y Soc. I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "SDI-14105": {
+        "nombre": "Introducción a la Ingeniería (1)",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "LEN-12701": {
+        "nombre": "Estrategias de Comunicación Escrita",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "ПО-15130": {
+        "nombre": "Fundamentos de Química",
+        "creditos": 11,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14100": {
+        "nombre": "Cálculo Diferencial e Integral I",
+        "creditos": 8,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14201": {
+        "nombre": "Álgebra Lineal I",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14200"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "COM-11102": {
+        "nombre": "Estructuras de Datos",
+        "creditos": 8,
+        "prerreqs": [
+            "COM-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17122": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17121"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17141": {
+        "nombre": "Probl. de la Civilización Contemp. I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "SDI-11120": {
+        "nombre": "Elementos de Física",
+        "creditos": 10,
+        "prerreqs": [
+            "MAT-14100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "MAT-14101": {
+        "nombre": "Cálculo Diferencial e Integral II",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14100"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "ПО-15140": {
+        "nombre": "Ciencias de los Materiales",
+        "creditos": 9,
+        "prerreqs": [
+            "ПО-15130"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "COM-16203": {
+        "nombre": "Desarrollo de Aplicaciones Informáticas",
+        "creditos": 8,
+        "prerreqs": [
+            "COM-11102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "CON-10100": {
+        "nombre": "Contabilidad I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EGN-17142": {
+        "nombre": "Probls. de la Civilización Contemporánea II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17141"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EGN-17123": {
+        "nombre": "Ideas e Institucs. Políticas y Sociales III (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17122",
+            "EGN-17141",
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "LEN-12702": {
+        "nombre": "Seminario de Comunicac. Escrita (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "SDI-11221": {
+        "nombre": "Elementos de Electrónica",
+        "creditos": 10,
+        "prerreqs": [
+            "SDI-11120"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "MAT-14102": {
+        "nombre": "Cálculo Diferencial e Integral III",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14101",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ECO-11101": {
+        "nombre": "Economía I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ПО-15170": {
+        "nombre": "Diseño Asistido por Computadora",
+        "creditos": 6,
+        "prerreqs": [
+            "SDI-11120"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EGN-17161": {
+        "nombre": "Historia Socio-Política de México",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17123",
+            "LEN-12702"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EST-11101": {
+        "nombre": "Probabilidad",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "SDI-11322": {
+        "nombre": "Circuitos Lógicos",
+        "creditos": 10,
+        "prerreqs": [
+            "SDI-11120",
+            "SDI-11221"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EST-11102": {
+        "nombre": "Inferencia Estadística",
+        "creditos": 8,
+        "prerreqs": [
+            "EST-11101",
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "SDI-12515": {
+        "nombre": "Señales y Sistemas",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "ECO-12102": {
+        "nombre": "Economía II",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EGN-17162": {
+        "nombre": "Problemas de la Realidad Mexicana Contemp.",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17142",
+            "EGN-17161"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "MAT-12210": {
+        "nombre": "Sistemas Dinámicos",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "SDI-11561": {
+        "nombre": "Principios de Mecatrónica",
+        "creditos": 10,
+        "prerreqs": [
+            "SDI-11322",
+            "COM-11102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "COM-23101": {
+        "nombre": "Inteligencia Artificial",
+        "creditos": 8,
+        "prerreqs": [
+            "COM-16203"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "SDI-12625": {
+        "nombre": "Procesamiento Digital de Señales",
+        "creditos": 8,
+        "prerreqs": [
+            "SDI-12515"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "COM-14105": {
+        "nombre": "Algoritmos Numéricos por Computadora",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16203",
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ПО-15171": {
+        "nombre": "Mecánica de Sólidos (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14101",
+            "ПО-15170"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "LEN-12725": {
+        "nombre": "Comunicac. Escrita para Ing. en Mecatr. (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "SDI-11671": {
+        "nombre": "Teoría de Control",
+        "creditos": 6,
+        "prerreqs": [
+            "SDI-12515"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "SDI-13760": {
+        "nombre": "Redes de Computadoras",
+        "creditos": 10,
+        "prerreqs": [
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ПО-12170": {
+        "nombre": "Automatización y Control de Procesos",
+        "creditos": 9,
+        "prerreqs": [
+            "COM-16203"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ПО-15161": {
+        "nombre": "Manufactura de Componentes",
+        "creditos": 9,
+        "prerreqs": [
+            "ПО-15140"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ПО-15183": {
+        "nombre": "Diseño de Mecanismos Robóticos",
+        "creditos": 6,
+        "prerreqs": [
+            "ПО-15171"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "SDI-11911": {
+        "nombre": "Robótica",
+        "creditos": 6,
+        "prerreqs": [
+            "MAT-14102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ПО-15195": {
+        "nombre": "Celdas Robóticas",
+        "creditos": 9,
+        "prerreqs": [
+            "SDI-11561"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "COM-14104": {
+        "nombre": "Sistemas Operativos",
+        "creditos": 8,
+        "prerreqs": [
+            "SDI-11561"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ПО-12190": {
+        "nombre": "Manufactura Integrada por Computadora",
+        "creditos": 6,
+        "prerreqs": [
+            "ПО-15161"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ПО-15196": {
+        "nombre": "Sistemas Mecatrónicos (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "ПО-12170",
+            "ПО-15171"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "LEN-12765": {
+        "nombre": "Comunicac. Profesional para Ing. en Meca. (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12725",
+            "LEN-12702"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "SDI-15816": {
+        "nombre": "Seminario de Titulación",
+        "creditos": 4,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    }
+}

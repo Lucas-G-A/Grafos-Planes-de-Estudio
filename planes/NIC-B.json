@@ -1,0 +1,682 @@
+{
+    "ADM-15560": {
+        "nombre": "Introducción a las Finanzas e Intermediación Financiera",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "COM-16306": {
+        "nombre": "Razonamiento Algorítmico",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "EGN-17141": {
+        "nombre": "Problemas de la Civilización Contemporánea I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "IIO-16111": {
+        "nombre": "Trayectoria de Negocios I: Ingeniería y Tecnología",
+        "creditos": 2,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "LEN-12701": {
+        "nombre": "Estrategias de Comunicación Escrita",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "MAT-12200": {
+        "nombre": "Cálculo Univariado",
+        "creditos": 9,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "MAT-14250": {
+        "nombre": "Geometría Vectorial",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 1
+    },
+    "ADM-15507": {
+        "nombre": "Fundamentos de Finanzas",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15560"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "COM-16305": {
+        "nombre": "Gestión de Datos",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16306"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "CON-10001": {
+        "nombre": "Proceso Contable",
+        "creditos": 8,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "ECO-11010": {
+        "nombre": "Principios de Microeconomía",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "EGN-17142": {
+        "nombre": "Problemas de la Civilización Contemporánea II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17141"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "MAT-14201": {
+        "nombre": "Álgebra lineal I",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-14250"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 2
+    },
+    "ADM-12107": {
+        "nombre": "Estrategia de Negocios I",
+        "creditos": 6,
+        "prerreqs": [],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "COM-12109": {
+        "nombre": "Fuentes de Datos Empresariales",
+        "creditos": 8,
+        "prerreqs": [
+            "COM-16305"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "CON-10111": {
+        "nombre": "Contabilidad Financiera 1",
+        "creditos": 8,
+        "prerreqs": [
+            "CON-10001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "EGN-17121": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales I (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "IIO-12172": {
+        "nombre": "Taller de Programación de Dispositivos de Ingeniería",
+        "creditos": 2,
+        "prerreqs": [
+            "COM-16306"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "LEN-12702": {
+        "nombre": "Seminario de Comunicación Escrita (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "MAT-12201": {
+        "nombre": "Cálculo Multivariado",
+        "creditos": 9,
+        "prerreqs": [
+            "MAT-12200",
+            "MAT-14250"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 3
+    },
+    "ADM-14405": {
+        "nombre": "Estructuras, Procesos y Comportamiento Organizacional I",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-12107"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ADM-15532": {
+        "nombre": "Finanzas Corporativas",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15507"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "COM-16307": {
+        "nombre": "Modelado Analítico de Negocios",
+        "creditos": 4,
+        "prerreqs": [
+            "COM-12109"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "CON-10112": {
+        "nombre": "Contabilidad Financiera II",
+        "creditos": 8,
+        "prerreqs": [
+            "CON-10111"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ECO-12010": {
+        "nombre": "Principios de Macroeconomía",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11010"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EGN-17122": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales II",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17121"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "EST-11101": {
+        "nombre": "Probabilidad",
+        "creditos": 8,
+        "prerreqs": [
+            "MAT-12201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 4
+    },
+    "ADM-15522": {
+        "nombre": "Teoría de las Finanzas",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15532",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "ADM-15569": {
+        "nombre": "Modelaje para Contabilidad y Finanzas",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15532"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "COM-16413": {
+        "nombre": "Inteligencia de Negocios",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16307"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "CON-14109": {
+        "nombre": "Contabilidad Gerencial",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-10001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "ECO-11011": {
+        "nombre": "Microeconomía Aplicada I",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-12010",
+            "MAT-12201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EGN-17123": {
+        "nombre": "Ideas e Instituciones Políticas y Sociales III",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17141",
+            "EGN-17122"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "EST-11102": {
+        "nombre": "Inferencia Estadística",
+        "creditos": 8,
+        "prerreqs": [
+            "EST-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 5
+    },
+    "ADM-12312": {
+        "nombre": "Trayectorias en Negocios II: Equipo y Liderazgo",
+        "creditos": 2,
+        "prerreqs": [
+            "IIO-16111",
+            "ADM-12107"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ADM-14413": {
+        "nombre": "Desarrollo de Habilidades Gerenciales",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-12107"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "COM-11308": {
+        "nombre": "Introducción a la Inteligencia Artificial",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16305",
+            "EST-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "CON-12003": {
+        "nombre": "Administración Estratégica de Costos",
+        "creditos": 6,
+        "prerreqs": [
+            "CON-14109"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ECO-11012": {
+        "nombre": "Microeconomía Aplicada II",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11011"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "EGN-17161": {
+        "nombre": "Historia Socio-Política de México",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17123"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "IIO-13151": {
+        "nombre": "Modelado de Redes Inteligentes",
+        "creditos": 6,
+        "prerreqs": [
+            "IIO-12172"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "IIO-13180": {
+        "nombre": "Simulación de Sistemas",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 6
+    },
+    "ADM-15514": {
+        "nombre": "Administración de Portafolios de Inversión",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15522"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ADM-15563": {
+        "nombre": "Valuación de Empresas (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15569"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ADM-16737": {
+        "nombre": "Gestión del Crecimiento del Negocio",
+        "creditos": 6,
+        "prerreqs": [
+            "ECO-11011",
+            "EST-11102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "DER-10022": {
+        "nombre": "Derecho Empresarial",
+        "creditos": 8,
+        "prerreqs": [
+            "ADM-12107",
+            "CON-10001"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "EGN-17162": {
+        "nombre": "Problemas de la Realidad Mexicana Contemporánea",
+        "creditos": 6,
+        "prerreqs": [
+            "EGN-17161"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "EST-11105": {
+        "nombre": "Principios de Regresión Lineal",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11102",
+            "MAT-14201"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "LEN-12717": {
+        "nombre": "Comunicación Escrita para Dirección Financiera (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12701"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 7
+    },
+    "ADM-15564": {
+        "nombre": "Renta Fija y Derivados",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15514"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ADM-15565": {
+        "nombre": "Modelos Financieros y Administración de Riesgos",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15514"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ADM-16608": {
+        "nombre": "Principios de Mercadotecnia",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11101"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "COM-23120": {
+        "nombre": "Minería de Datos y Aprendizaje de Máquina",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16305",
+            "EST-11102"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "DER-10023": {
+        "nombre": "Derecho Financiero",
+        "creditos": 6,
+        "prerreqs": [
+            "DER-10022"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "IIO-13162": {
+        "nombre": "Modelado Estocástico",
+        "creditos": 6,
+        "prerreqs": [
+            "IIO-13151"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "SDI-17524": {
+        "nombre": "Dinámica de Sistemas para Negocios",
+        "creditos": 4,
+        "prerreqs": [
+            "COM-16307"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 8
+    },
+    "ADM-12313": {
+        "nombre": "Trayectorias en Negocios III: Emprendimiento e Impacto",
+        "creditos": 2,
+        "prerreqs": [
+            "ADM-15565",
+            "ADM-12312",
+            "COM-23120"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ADM-13450": {
+        "nombre": "Emprendimiento",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15563"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ADM-15566": {
+        "nombre": "Capital Privado y Finanzas Emprendedoras",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15563"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ADM-16739": {
+        "nombre": "Métodos de Investigación de Mercados",
+        "creditos": 6,
+        "prerreqs": [
+            "EST-11105",
+            "ADM-16608"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "CON-10005": {
+        "nombre": "Análisis Financiero de la Empresa",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15532",
+            "COM-23120"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "CON-15001": {
+        "nombre": "Impuestos Corporativos I",
+        "creditos": 6,
+        "prerreqs": [
+            "DER-10023"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "IIO-14193": {
+        "nombre": "Ingeniería de Procesos de Negocios",
+        "creditos": 6,
+        "prerreqs": [
+            "IIO-13180"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 9
+    },
+    "ADM-11010": {
+        "nombre": "Dirección General",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-12313",
+            "ADM-13450",
+            "ADM-15563"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ADM-15505": {
+        "nombre": "Banca de Inversión (A)",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-15564",
+            "ADM-15563"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ADM-15567": {
+        "nombre": "Finanzas, Tecnología y Datos",
+        "creditos": 6,
+        "prerreqs": [
+            "COM-16307",
+            "ADM-15563",
+            "COM-23120"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "ADM-16707": {
+        "nombre": "Mercadotecnia Analítica",
+        "creditos": 6,
+        "prerreqs": [
+            "ADM-16739"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    },
+    "LEN-12757": {
+        "nombre": "Comunicación Profesional para Dirección Financiera (A)",
+        "creditos": 2,
+        "prerreqs": [
+            "LEN-12702",
+            "LEN-12717"
+        ],
+        "coreqs": [],
+        "estado": 0,
+        "semestre": 10
+    }
+}
